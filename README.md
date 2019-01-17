@@ -2,7 +2,7 @@
 #### purpose: show case programming skills.
 
 ## Requirements
-* Use Spring boot 1.x with Java 8.  (Will be using spring boot 1.5.19).
+* Use Spring boot 1.x with Java 8.  (Will be using spring boot 1.5.19 with Jersey).
 
 #### Story
 Implement a web application using spring boot which will expose an POST endpoint consuming a JSON payload.
