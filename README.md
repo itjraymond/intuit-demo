@@ -43,6 +43,10 @@ curl --header "Content-Type: application/json" --request POST \
 --data '{"account": "123456789", "cc": "1234 5555 1234 6666", "firstname": "John", "lastname": "Doe" }' \
 http://localhost:8080/intuit/account
 ```
+#### Test Coverage
+The `./gardlew clean build` command above will also run all the tests and create a test coverage report located 
+in the `build/reports/tests/test/index.html` folder.  Open this `index.html` into a browser to see the coverage report.
+
 
 #### Lombok
 Note that I will use lombok for logging to terminal.  If you run the web application directly from IntelliJ, make sure you 
