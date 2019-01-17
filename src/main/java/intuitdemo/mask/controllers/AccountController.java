@@ -11,6 +11,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+/**
+ * Simple exposure of an Account resource.
+ */
+
 @Slf4j
 @Component
 @Path("/intuit")
