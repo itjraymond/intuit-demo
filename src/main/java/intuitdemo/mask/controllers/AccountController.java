@@ -22,7 +22,7 @@ public class AccountController {
     @Consumes(MediaType.APPLICATION_JSON)
     @Path("account")
     public Account processAccount(Account account) {
-        log.info("POST called");
+        log.info("POST Account:  " + account);
         return account;
     }
 
@@ -31,7 +31,7 @@ public class AccountController {
     @Path("account")
     public Account getAccount() {
         Account account = new Account("123456789", "1234 5555 1234 6666", "John", "Doh");
-        log.info("message from lombok");
+        log.info("GET account:  " + account);
         return account;
 
     }

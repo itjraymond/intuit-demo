@@ -2,7 +2,7 @@
 #### purpose: show case programming skills.
 
 ## Requirements
-* Use Spring boot 1.x with Java 8.
+* Use Spring boot 1.x with Java 8.  (Will be using spring boot 1.5.19).
 
 #### Story
 Implement a web application using spring boot which will expose an POST endpoint consuming a JSON payload.
@@ -10,7 +10,7 @@ The JSON payload should be logged onto the terminal and mask sensitive informati
 payload intact as response.
 
 #### Design
-POST: /intuit/account
+Endpoint:  POST: /intuit/account
 
 Payload sample:
 ```json
